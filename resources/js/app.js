@@ -8,7 +8,9 @@ const title = 'Laravel';
 
 require('./bootstrap');
 
-window.Vue = require('vue').default;
+import vue from 'vue';
+
+window.Vue = vue;
 import VueRouter from 'vue-router';
 import routes from './routes'
 
